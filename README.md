@@ -24,6 +24,7 @@ Connects to a sample DB "test" on a locally hosted MongoDB to retrieve a list of
 ```
 > "C:\Program Files\MongoDB\Server\4.4\bin\mongo.exe"
 ```
+- get connection string properties
 ```
 > db.inventory.insertMany([
    { item: "journal", qty: 25, status: "A", size: { h: 14, w: 21, uom: "cm" }, tags: [ "blank", "red" ] },
@@ -33,4 +34,4 @@ Connects to a sample DB "test" on a locally hosted MongoDB to retrieve a list of
    { item: "postcard", qty: 45, status: "A", size: { h: 10, w: 15.25, uom: "cm" }, tags: [ "blue" ] }
 ]);
 ```
-
+- run visual studio project
