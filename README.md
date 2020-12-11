@@ -20,7 +20,7 @@ Connects to a sample DB "test" on a locally hosted MongoDB to retrieve a list of
 
 - >cd \data\db
 
-- "C:\Program Files\MongoDB\Server\4.4\bin\mongod.exe" --dbpath="c:\data\db"
+- >"C:\Program Files\MongoDB\Server\4.4\bin\mongod.exe" --dbpath="c:\data\db"
 
 - leave running, new terminal
 
