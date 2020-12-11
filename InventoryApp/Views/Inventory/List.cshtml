@@ -1,0 +1,13 @@
+﻿@model IEnumerable<InventoryApp.Models.Inventory>
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+@foreach(var Inventory in @Model)
+{
+    <div>
+        <div>@Inventory.InventoryName</div>
+        <div>@Inventory.InventoryQty</div>
+    </div>
+}
